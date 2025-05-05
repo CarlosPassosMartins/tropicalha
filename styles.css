@@ -39,15 +39,6 @@ section {
     margin: 0 auto;
 }
 
-.img-inicio {
-    position: absolute;
-    right: 0;
-    top: 18rem;
-    width: 45rem;
-    height: auto;
-}
-
-
 .esquerda-conteudo {
     display: flex;
     flex-direction: column;
@@ -57,12 +48,16 @@ section {
 
 
 .botao-inicio {
+    display: flex;
+    justify-content: center;
     background-color: var(--laranja-claro);
     border-radius: 30px;
     border: none;
     width: 14em;
     height: 3em;
     align-content: center;
+    align-items: center;
+    text-align: center;
 
 }
 
